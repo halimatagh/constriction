@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px; /* Optional margin to add space between logo and social icons */
+}
+
+.logo-container img {
+  max-width: 49%;
+  height: auto;
+}

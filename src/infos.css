@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
